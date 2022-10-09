@@ -1,0 +1,4 @@
+﻿  01.cpp
+D:\rsck\Project1\life reform\Project1\01.cpp(14,10): warning C4244: “=”: 从“time_t”转换到“int”，可能丢失数据
+D:\rsck\Project1\life reform\Project1\01.cpp(232,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  Project1.vcxproj -> D:\rsck\Project1\life reform\x64\Debug\人生洗牌.exe

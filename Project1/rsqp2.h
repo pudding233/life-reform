@@ -167,7 +167,7 @@ void s41()//21 -30
 	case 12:printf("你学习很累[获得了天赋加持]\n智力+20\n体力+30\n家境+50\n"); zl = zl+20; jj = jj + 50; tl = tl + 30; break;
 	case 13:printf("你买的彩票中奖了\n零花钱+5000"); m=m+5000;; break;
 	case 14:printf("你放弃了人生\n");sw(); break;
-	case 15:printf("你学会了赌博\n家境-50\n零花钱-1000"); jj = jj -50;m=m-5000; break;
+	case 15:printf("你学会了赌博\n家境-50\n零花钱-1000"); jj = jj -50;m=m-1000; break;
 	case 16:printf("你捡到了1000元");m=m+1000; break;
 	case 17:printf("你到奶茶店，买了杯火龙果奶盖\n零花钱-12\n"); m = m - 12; break;
 	case 18:printf("什么也没发生\n");  break;
@@ -646,7 +646,7 @@ void s53()//81 - 90
 	case 15:printf("你学会了赌博\n家境-50\n"); jj = jj - 50; break;
 	case 16:printf("学校盖了一栋新楼\n"); break;
 	case 17:printf("你到奶茶店，买了杯火龙果奶盖\n零花钱-12\n"); m = m - 12; break;
-	case 18:printf("一个老人在卖全复药水,你买吗？只要$50000\n"); xz();
+	case 18:a = 0; printf("一个老人在卖全复药水,你买吗？只要$50000\n"); xz();
 		if (a=='Y')
 		{
 			if (m>=50000)

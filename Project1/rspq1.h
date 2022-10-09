@@ -31,12 +31,12 @@ void sj()
 		{
 			if (bzl==1)
 			{
-				printf("你的智力为%d \n", zl);
+				cout << "你的智力为" << zl << endl ;
 			}
 			else
 			{
 			zl = h;
-			printf("你的智力为%d \n", zl);
+			cout << "你的智力为" << zl << endl ;
 			}
 
 		}
@@ -46,19 +46,19 @@ void sj()
 			{
 				if (tl>3)
 				{
-				     printf("你的体力为%d \n", tl);
+				     cout << "你的体力为" << tl << endl ;
 				}
 				else
 				{
 					 tl = h;
-			         printf("你的体力为%d \n", tl);
+			         cout << "你的体力为" << tl <<endl ;
 				}
 
 			}
 			else
 			{
 			tl = h;
-			printf("你的体力为%d \n", tl);
+			 cout << "你的体力为" << tl << endl ;
 			}
 
 		}
@@ -66,12 +66,12 @@ void sj()
 		{
 			if (bjj==1)
 			{
-			printf("你的家境为%d \n", jj);
+			cout << "你的家境为" << jj << endl ;
 			}
 			else
 			{
 				jj = h;
-				printf("你的家境为%d \n", jj);
+				cout << "你的家境为" << jj << endl ;
 			}
 
 
@@ -84,8 +84,8 @@ void sw()
 		if (bszs>=1)
 		{
 			color(4);
-			printf("不死之身 生命恢复! \n");color(7);bszs=bszs-1;
-			printf("不死之身当前还有%d个 \n",bszs);sj();
+			cout << "不死之身 生命恢复!" << endl;color(7);bszs=bszs-1;
+			cout << "不死之身当前还有"<< bszs << "个" <<endl ;sj();
 		}
 		else
 		{

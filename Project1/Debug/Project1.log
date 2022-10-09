@@ -1,1 +1,6 @@
-﻿  Project1.vcxproj -> D:\rsck\Project1\Debug\Project1.exe
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(514,5): warning MSB8028: 中间目录(Debug\)包含从另一个项目(Project1.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  main.cpp
+D:\Onedrive\桌面\rsck\life reform\Project1\bl.h(1,1): warning C4828: 文件包含在偏移 0xe6 处开始的字符，该字符在当前源字符集中无效(代码页 936)。
+D:\Onedrive\桌面\rsck\life reform\Project1\main.cpp(17,10): warning C4244: “=”: 从“time_t”转换到“int”，可能丢失数据
+D:\Onedrive\桌面\rsck\life reform\Project1\main.cpp(211,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  Project1.vcxproj -> D:\Onedrive\桌面\rsck\life reform\Debug\人生洗牌.exe
